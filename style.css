@@ -1,0 +1,56 @@
+header {
+  padding: 1px;
+  padding-left: 50px;
+  text-align: left;
+  background-color: gray;
+}
+
+main {
+  /* link to an external background image for my main element */
+  background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/Triangle-White-Seamless-Patterns.jpg");
+  padding-top: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+article {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+/* Those lists looked a little tight for my taste. Let's give them a little breathing room. */
+li { 
+  line-height: 1.5;
+}
+
+/* These pseudo-classes will change the behavior (color in this case) 
+of my links as they're interacted with*/
+a:link {
+color: blue;
+}
+
+a:visited {
+color: purple;
+}
+
+a:hover {
+color: green;
+}
+
+a:active {
+color: red;
+}
+
+footer {
+  height: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding: 1px;
+  padding-right: 50px;
+  background-color: gray;
+  
+}
